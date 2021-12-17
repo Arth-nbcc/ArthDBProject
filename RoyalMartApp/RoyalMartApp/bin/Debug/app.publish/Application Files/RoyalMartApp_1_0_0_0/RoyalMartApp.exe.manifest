@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RoyalMartApp.exe" version="1.0.0.0" publicKeyToken="6007c767aa819592" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="logo2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RoyalMartApp" version="1.0.0.0" publicKeyToken="143E8225EBC4FE0B" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RoyalMartApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RoyalMartApp.exe" size="879008">
+      <assemblyIdentity name="RoyalMartApp" version="1.0.0.0" publicKeyToken="143E8225EBC4FE0B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>mjavLY5elilLEcRq1XibsEpyPoS03lIRT+alLEaEqE0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SqlClient.dll" size="222600">
+      <assemblyIdentity name="System.Data.SqlClient" version="4.6.1.3" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2B9KQLDNiijqVS2TX/inuG9w10a9lprps6eDpcjmVG8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="logo2.ico" size="142622">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5LGv3GtNKYROCFBcGzDq6O6OrxN5Sh1zVOxnLAQ8r1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RoyalMartApp.exe.config" size="374">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sOokIPh7quxSK/Wg2kTsWELGADbYQHv3wDrdNTXFVhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQL Scripts\signup.sql" size="333">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a5fY6122tCfnrS2WzQsP0wVzO0klTdcFUc3RIO5s9WI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQL Scripts\SQLQuery1.sql" size="335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NzxYoTSCH1a96fcvKpBUlVSMUp91XYLc8rIDH1ZNYjo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SQL Scripts\SQLQuery2.sql" size="302">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Oz3pJX9ZR6iSRUTmQdhMnlLqgjU+MLQYzFkdj7AeTG0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ARTH\arthp" issuerKeyHash="44d347717b5048939d4851b9cdf49f36d96ee373" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XyE/+/SHSG1nF0kUJeshRjGlJxmVwIMoR9NIhWIslgE=</DigestValue></Reference></SignedInfo><SignatureValue>Fbz/Ns8JWgQSd9aqvpHEXzCJt+VB4A82gZOJMS3DyyZk1BMvuH7MOmJD+MSFWsuf1500Js05Fj3Mz0BSYOt8wv802z2umo96J5N/CZmacwb+mdGTWB5Er8UrKl1M/lDME+PhLrwlle0HIyWg0hvf2eSP2ae1b65NNtj+Zj0rmvA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>thW9r56yCwc3nB4CNK/NtLOScsnLY8wuzau4udFz+HnEK/E2XHoYjznHhP3IIZJENhUbRGvDPJ1pW3P50KosL6kbDDggTXYPDnW/Ttw+l3E0EQEwSptFqEksuWv+i+Ci/s1DnCF+lgOcQqXLEbVuGSprP6PMDJ/F0ntRYQ2heBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="01962c628548d3472883c0951927a5314621eb25144917676d4887f4fb3f215f" Description="" Url=""><as:assemblyIdentity name="RoyalMartApp.exe" version="1.0.0.0" publicKeyToken="6007c767aa819592" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ARTH\arthp</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Vrjr65r9BQeMcB1bhAFdScPRzjtRc63V82SOgl4m1ME=</DigestValue></Reference></SignedInfo><SignatureValue>TgQVDWBf0P/Sgcv0wfA55AhR7kkTou+M1v2b0goqIwGdpkHQi/GYSxj2/MOgifS8VOZAFg5+1ew9VVbgDk5+UeYoe2+/cm81xkdEXIzfhzP3MYBvEC/NnLPrbC6B+OjiBzg0t9uvxUw656FfaYESV5qXCp2SsVUDQfnijJEdQqA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>thW9r56yCwc3nB4CNK/NtLOScsnLY8wuzau4udFz+HnEK/E2XHoYjznHhP3IIZJENhUbRGvDPJ1pW3P50KosL6kbDDggTXYPDnW/Ttw+l3E0EQEwSptFqEksuWv+i+Ci/s1DnCF+lgOcQqXLEbVuGSprP6PMDJ/F0ntRYQ2heBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQduitlN0407xHQ5x9j7fuJzANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAQQBSAFQASABcAGEAcgB0AGgAcDAeFw0yMTEyMTcwODQ2MzJaFw0yMjEyMTcxNDQ2MzJaMB8xHTAbBgNVBAMeFABBAFIAVABIAFwAYQByAHQAaABwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2Fb2vnrILBzecHgI0r820s5JyyctjzC7Nq7i50XP4ecQr8TZcehiPOceE/cghkkQ2FRtEa8M8nWlbc/nQqiwvqRsMOCBNdg8Odb9O3D6XcTQRATBKm0WoSSy5a/6L4KL+zUOcIX6WA5xCpcsRtW4ZKms/o8wMn8XSe1FhDaF4EQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACgCjCjGni5/CJG+5GP167y5RgTWjxhjwW7Ibdam6R1GjQTtRUMRfrnRVW0zfhc3EcQdoJEjfL2cD7XiQ9TbBihVBaW0aIJo0vWObF2AgBUsm8Q20lyIzfmhggBZZg/gdXEjFzXrKzG32dPjCdGnUiH4T03dKKiXcOVt6TkZ6Ran</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
